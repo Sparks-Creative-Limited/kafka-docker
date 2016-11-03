@@ -17,7 +17,7 @@ services:
         image: zookeeper-kafka
         restart: always
         ports:
-            - 2181"
+            - 2181
             - 9092
         environment:
             ZOO_MY_ID: 2
